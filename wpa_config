@@ -1,0 +1,13 @@
+ctrl_interface=/var/run/wpa_supplicant
+update_config=1
+eapol_version=1
+ap_scan=1
+
+network={
+	ssid="NUS"
+	key_mgmt=WPA-EAP
+	eap=PEAP
+	identity="NUSSTU\a0095662"
+	password="HHDiswinner1203***"
+	phase2="auth=MSCHAPV2"
+}
